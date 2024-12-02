@@ -4,7 +4,6 @@ import EngagementProfile from "../../components/EngagementProfile";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import UserProfile from "../../components/UserProfile";
-import MendlesonCommunicationSection from "./MendlesonCommunicationSection";
 import OurClientsSection from "./OurClientsSection";
 import OurProjectsSection from "./OurProjectsSection";
 import React, { Suspense } from "react";
