@@ -1,0 +1,21 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RubikRomanMedium.ttf");
+  font-family: "Rubik";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RubikRomanRegular.ttf");
+  font-family: "Rubik";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RubikRomanBold.ttf");
+  font-family: "Rubik";
+  font-weight: 700;
+}
