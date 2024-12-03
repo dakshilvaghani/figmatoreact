@@ -36,17 +36,50 @@ export default function MendlesonLandingpageDesignPage() {
                 <Img
                   src="images/img_asset_2.png"
                   alt="Secondary Image"
-                  className="h-[350px] w-full object-contain"
+                  className="
+      h-[350px] 
+      w-full 
+      object-contain 
+      lg:h-[300px] 
+      md:h-[250px] md:w-[80%] 
+      sm:h-[200px] sm:w-[70%] 
+      sm:right-2 
+      sm:top-2"
                 />
               </div>
 
               {/* Mendleson Communication Section */}
-              <div className="absolute w-[430px] top-[27%] left-[50%] flex flex-col items-start space-y-10 z-12">
+              <div
+                className="
+  absolute 
+  w-[430px] 
+  top-[27%] 
+  left-[70%] 
+  transform -translate-x-1/2 
+  flex flex-col 
+  items-start 
+  space-y-10 
+  z-12 
+  lg:w-[350px] 
+  md:w-[300px] 
+  sm:w-[90%] 
+  sm:top-[20%] 
+  sm:space-y-6
+"
+              >
                 {/* Heading */}
                 <Heading
                   size="text4xl"
                   as="h1"
-                  className="text-[56px] font-medium leading-[66px] text-black-900 lg:text-[47px] md:text-[36px] sm:text-[30px]"
+                  className="
+      text-[56px] 
+      font-medium 
+      leading-[66px] 
+      text-black-900 
+      lg:text-[47px] lg:leading-[56px] 
+      md:text-[36px] md:leading-[46px] 
+      sm:text-[30px] sm:leading-[40px]
+    "
                 >
                   <>
                     Mendleson
@@ -60,7 +93,16 @@ export default function MendlesonLandingpageDesignPage() {
                 {/* Paragraph */}
                 <Text
                   as="p"
-                  className="w-full text-[18px] font-normal leading-[28px] text-blue_gray-900 lg:text-[15px] sm:w-full"
+                  className="
+      w-full 
+      text-[18px] 
+      font-normal 
+      leading-[28px] 
+      text-blue_gray-900 
+      lg:text-[15px] lg:leading-[24px] 
+      md:text-[14px] md:leading-[22px] 
+      sm:w-full sm:text-[14px] sm:leading-[20px]
+    "
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Malesuada sed ipsum, ut quam volutpat, tortor.
